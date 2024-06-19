@@ -102,7 +102,7 @@ function Formulario({ agregarProducto, productoAEditar, actualizarProducto }) {
             />
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-success">
             {productoAEditar ? 'Actualizar' : 'Agregar'}
         </button>
         </form>
