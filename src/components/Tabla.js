@@ -21,7 +21,7 @@ function Tabla({ productos, setProductoAEditar, eliminarProducto }) {
                 <td>${producto.precioUnitario.toFixed(2)}</td>
                 <td>
                 <button
-                    className="btn btn-info btn-sm"
+                    className="btn btn-secondary btn-sm"
                     onClick={() => setProductoAEditar(producto)}
                 >
                     Editar
